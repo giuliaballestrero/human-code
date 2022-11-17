@@ -1,0 +1,37 @@
+Perché ci si mette sempre un’ora a scegliere cosa guardare la sera? 
+Certo è difficile mettere d’accordo i gusti di tutti, poi dipende anche in base al tempo (o al sonno) che abbiamo.
+Delle volte si pensa di vedere quel bel film che ci hanno consigliato, mentre altre volte si viene risucchiati da quella serie tv che ci tiene incollati allo schermo. 
+Che senso di vuoto quando poi finisce! 
+
+
+Riccardo crea un gruppo per guardare Netflix a casa sua:
+    Aggiunge 5 persone
+    Chiede nel gruppo:
+        *
+*Chi c'è stasera per Netflix?
+    Chiede a tutti i partecipanti se sono disponibili per le 21:00:
+        SE disponibili:
+            **
+        ALTRIMENTI:
+            ->Elimina dal gruppo
+**Per quanto tempo?:
+    SE il tempo è inferiore a un'ora:
+        ***Serie TV
+    ALTRIMENTI (superiore a un'ora):
+        ****Film
+SE la maggioranza dei partecipanti ha un tempo inferiore a un'ora:
+    Quali serie ci guardiamo stasera?
+ALTRIMENTI:
+    ->Elimina dal gruppo
+SE la maggioranza dei partecipanti ha un tempo superiore a un'ora:
+    Quale film ci guardiamo stasera?
+ALTRIMENTI:
+    ->Elimina dal gruppo
+Si crea una lista con i nomi dei film scelti da ogni singolo partecipante
+Si estrae randomicamente un film
+Riccardo apre sulla propria tv l'applicazione di Netflix
+    Se Netflix non funziona:
+        Spegni la TV
+        Apri un gioco da tavolo
+    ALTRIMENTI:
+        Si guarda quel film su Netflix
